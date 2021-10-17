@@ -154,4 +154,13 @@ class Class8:
 		self.x = 3
 
 a = Class8()
-a.inm(Class8)
+# a.inm(Class8)
+
+class Class9:
+	@classmethod
+	def clm(cls):
+		cls.var1 = "clm"
+Class9.clm()
+print(Class9.var1)
+a = Class9()
+print(a.var1)
